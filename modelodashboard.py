@@ -14,6 +14,6 @@ st. set_page_config(
   layout="wide"
 )
 
-st.title("Agroindustria en Colombia")
+st.title(" 🌳 Agroindustria en Colombia 🌳")
 st.sidebar.title(" Opciones de Visualizacion")
 
