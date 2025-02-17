@@ -49,7 +49,7 @@ data = pd.DataFrame({
 
 menu= st.sidebar.radio(
   "Opciones:", 
-  ["Datos", "Visualizacion", " Configuracion"}
+  ["Datos", "Visualizacion", " Configuracion"]
    )
 
 if meu == "Datos":
