@@ -19,9 +19,6 @@ st. set_page_config(
 st.title(" 🌳 Agroindustria en Colombia 🌳")
 st.sidebar.title(" ☷ Menu Opciones")
 
-import random
-from datetime import datetime, timedelta
-
 # Generar datos aleatorios
 num_datos = 10
 
