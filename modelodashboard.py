@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import plotly.express as px
 from datetime import datetime
-import random
 from datetime import datetime, timedelta
 
 # 1. Configuración inicial de la aplicación
