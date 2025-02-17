@@ -10,7 +10,7 @@ from datetime import datetime
 
 st.set_page_confi(
   page_title = "Dashboard Interactivo",
-  page_icon="(°>°)"
+  page_icon="(°>°)",
   layout = "wide"
 )
 
