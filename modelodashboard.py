@@ -41,6 +41,14 @@ if menu == "Datos":
     st.subheader("📂 Datos Generados")
     st.dataframe(data)
 
+# 5. Filtrar por Categoría
+filtered_data = data  # Asegurar que filtered_data esté definido en todo el script
+if menu == "Visualización":
+    st.subheader("📊 Visualización de Datos")
+    categoria = st.sidebar.selectbox("Selecciona una categoría", data["Categoría"].unique())
+    filtered_data = data[data["Categoría"] == categoria]
+    st.write(f"Mostrando datos para la categoría {categoria}")
+    st.dataframe(filtered_data)
 
 
 
